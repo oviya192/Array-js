@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Arrays</title>
+    <link rel="shortcut icon" href="js.png">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <main>
+        <h1>JAVASCRIPT</h1>
+        <div class="container">
+            <div class="contents">
+                <h1>Javascript Arrays</h1>
+                <div>
+                <h1>Array Length</h1>
+                <p>The length property returns the length of a array:</p>
+                <p>Enter any Array : <input type="text" class="myText" id="length"></p>
+                <button type="button" onclick="lengthFunction()">Click here</button>
+                <p id="demo"></p>
+            </div>
+
+            <div>
+                <h1>Array toString()</h1>
+                <p>The String() method coverts the Array to string</p>
+                <p>Enter a Array:</p><input type="text" class="myText" id="string">
+                <button type="button" onclick="stringFunction()">Click here</button>
+                <p id="demo1"></p>
+
+            </div>
+
+            <div>
+                <h1>Array pop()</h1>
+                <p>The pop() method removes the last element from an array</p>
+                <p>Enter a Array:</p><input type="text" class="myText" id="pop">
+                <button type="button" onclick="popFunction()">Click here</button>
+                <p id="demo2"></p>
+
+            </div>
+            <div>
+                <h1>String push()</h1>
+                <p>The push() method adds a new element to an array (at the end)</p>
+                <p>Enter any text:</p><input type="text" id="newinput"  class="myText">
+                <p>Enter a Array:</p><input type="text" class="myText" id="push">
+                <button type="button" onclick="pushFunction()">Click here</button>
+                 <p id="demo3"></p>
+
+            </div>
+             <div>
+                <h1>Array Shift()</h1>
+                <p>The shift() method removes the first array element and "shifts" all other elements to a lower index.</p>
+                <p>Enter any Array : </p>
+                <div class="concate">
+                    <p>Enter a Array:<input class="myText" id="shift"></p>
+                    <button onclick="shiftFunction()">Click here</button>
+                </div>
+                <p id="demo4">Result:</p>  
+                   
+            </div>
+            <div>
+                <h1>Array Unshift()</h1>
+                <p>The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements</p>
+                <p>Enter any text:<input class="myText" id="newvalue"></p>
+                <p>Enter any Array:<input type="text" class="myText" id="unshift"></p>
+                <button onclick="unshiftFunction()">Click here</button>
+                <p id="demo5"></p>
+            </div>
+
+            <div>
+                <h1>Array Delete()</h1>
+                <p>Array elements can be deleted using the JavaScript operator delete.</p>
+                <p>Enter any text: <input type="text" class="myText" id="delete"></p>
+                <p>Enter any Array: <input type="text" class="myText" id="newdel"></p>
+                <button onclick="myFunction()">Click here</button>
+                <p id="arrdel"></p>
+            </div>
+
+            <div>
+                <h1>Array Concate()</h1>
+                <p>The concat() method creates a new array by merging (concatenating) existing arrays</p>
+                <p>Enter any text: <input type="text" class="myText" id="concate"></p>
+                <p>Enter any Array: <input type="text" class="myText" id="newval"></p>
+                <button onclick="concateFunction()">Click here</button>
+                <p id="demo6"></p>
+            </div>
+
+            <div>
+                <h1>Array Join()</h1>
+                <p>The join() method returns an array as a string.</p>
+                <p>Enter any text: <input type="text" class="myText" id="join"></p>
+                <p>Enter any Array: <input type="text" class="myText" id="newjoin"></p>
+                <button onclick="joinFunction()">Click here</button>
+                <p id="demo7"></p>
+            </div>
+
+            <div>
+                <h1>Array Slice()</h1>
+                <p>The slice() method slices out a piece of an array into a new array.</p>
+                <p>Enter any text:<input type="text" id="slice" class="myText" placeholder="Enter any text"></p><br>
+                <p>Enter 1st Value:<input type="text" id="slice1" class="myText" placeholder="Enter 1st value"></p><br>      
+                <p>Enter 2nd Value:<input type="text" id="slice2" class="myText" placeholder="Enter 2nd value"></p><br>
+                <button onclick="sliceFunction()">Click here</button>
+                <p id="demo8"></p>
+            </div>
+
+            <div>
+                <h1>Array spliceFunction()</h1>
+                <p>The splice() method can be used to add new items to an array.</p>
+                <p>Enter any text:<input type="text" id="splice" class="myText" placeholder="Enter any text"></p><br>
+                <p>Enter 1st Value:<input type="text" id="splice1" class="myText" placeholder="Enter 1st value"></p><br>      
+                <p>Enter 2nd Value:<input type="text" id="splice2" class="myText" placeholder="Enter 2nd value"></p><br>
+                <button onclick="spliceFunction()">Click here</button>
+                <p id="demo9"></p>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    
+
+
+        

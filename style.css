@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    height: 250vh;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+main h1{
+    color: violet;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container .contents{
+    display: grid;
+    grid-template-rows:none;
+    padding: 10px;
+    background-color:rgb(129, 204, 239);
+    width: 100%;
+    gap: 15px;
+    height: auto;
+}
+
+.contents > div {
+    height:auto;
+    background-color: rgb(212, 131, 231);
+    color: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+  }
+
+.contents h1{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 15px;
+    color: white;
+}
+
+.contents p{
+    padding-top: 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.contents button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius:50px;
+    background-color:rgb(129, 204, 239);
+    border-color:transparent;
+    justify-content: center;
+}
+
+.myText{
+    margin-top: 5px;
+    border-color: transparent;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.concate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .contents2{
+    display:grid;
+    grid-template-rows:none;
+    gap: 15px;
+    padding: 10px 10px;
+    background-color:rgb(129, 204, 239);
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.contents2 > div {
+    height:auto;
+    background-color: rgb(212, 131, 231);
+    color: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .contents2 h1{
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .contents2 p{
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.contents2 button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius:50px;
+    background-color:rgb(129, 204, 239);
+    border-color:transparent;
+    justify-content: center;
+}
+
+.contents2 div p{
+    margin-top: 15px;
+}
+
+@media screen and (min-width:480px) and (max-width:991px){
+.container{
+    width: 100%;
+    height: 300vh;
+    padding:0px;
+}
+
+.container .contents{
+    width: 100%;
+    padding: 10px 20px;
+    height: auto;
+}
+
+.contents > div{
+    width: 100%;
+    padding: 20px;
+
+}
+
+.container .contents2{
+    margin-top: 30px;
+    height: 440vh;
+    padding: 50px 20px;
+}
+
+.contents2 > div{
+    padding: 20px;
+}
+}
+
+@media screen and (min-width:250px) and (max-width:480px){
+    .container{
+        width: 100%;
+        height: 300vh;
+        padding:0px;
+    }
+    
+    .container .contents{
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        /* gap: 10px; */
+    }
+    
+    .contents > div{
+        height: auto;
+        width:100%;
+        padding: 10px;
+        background-color: violet;
+        display: inline;
+    }
+
+    .concate{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .contents2{
+        margin-top: 5rem;
+        height:auto;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+    
+    .contents2 > div{
+        padding: 20px;
+        height: auto;
+    }
+    
+    
+    }
